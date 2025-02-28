@@ -118,7 +118,7 @@ const Users = () => {
     setLoading(true);
     try {
       const response = await axiosInstance.post(
-        process.env.REACT_APP_BACKEND_URL + "/admin/setPasswordLink",
+        process.env.REACT_APP_DEPLOYED_BACKEND_URL + "/admin/setPasswordLink",
         { email }
       );
       if (response.data.success) {

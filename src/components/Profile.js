@@ -227,7 +227,7 @@ const Profile = () => {
           <img
             src={
               user?.photo
-                ? `${process.env.REACT_APP_BACKEND_URL}/${user.photo.replace(
+                ? `${process.env.REACT_APP_DEPLOYED_BACKEND_URL}/${user.photo.replace(
                     /\\/g,
                     "/"
                   )}`
@@ -294,7 +294,7 @@ const Profile = () => {
             <div className="text-center">
               <img src={
               user?.photo
-                ? `${process.env.REACT_APP_BACKEND_URL}/${user.photo.replace(
+                ? `${process.env.REACT_APP_DEPLOYED_BACKEND_URL}/${user.photo.replace(
                     /\\/g,
                     "/"
                   )}`
