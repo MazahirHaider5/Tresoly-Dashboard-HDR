@@ -1,0 +1,106 @@
+.btn-outline-color-pagination  {
+    border: solid 1px #D0D5DD !important;
+    color: #10182899!important;
+ }
+ .btn-outline-color-pagination:hover   {
+    background-color: #E1F2F6 !important;
+    color: #00000099 !important;
+ }
+
+ .btn-outline-color-pagination-dots {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: transparent !important;
+    color: #000000 !important;
+    background-color: transparent !important;
+    width: 25px; 
+    height: 25px; 
+    font-size: 14px; 
+    padding: 0; 
+  }
+ .selected-btn-outline-color-pagination-dots {
+    background-color: #E1F2F6 !important;
+    color: #000000 !important;
+    
+ }
+ .btn-outline-color-pagination-dots:hover   {
+    background-color: #E1F2F6 !important;
+    color: #000000 !important;
+ }
+/* Default styles for larger screens */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    white-space: nowrap; 
+  }
+  
+  .pagination-buttons {
+    display: flex;
+    gap: 1px;
+  }
+  
+  .pagination-dots {
+    padding: 0 10px;
+    font-size: 16px;
+  }
+  
+  /* Tablet screens */
+  @media (max-width: 768px) {
+  
+    .btn-outline-color-pagination-dots {
+      width: 20px;
+      height: 20px;
+      font-size: 12px;
+    }
+  
+    .pagination-dots {
+      padding: 0 8px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Mobile screens 480px */
+  @media (max-width: 480px) {
+    .pagination-container {
+      justify-content: flex-start;
+      padding: 0 5px;
+    }
+    
+    .btn-outline-color-pagination-dots {
+        width: 20px;
+        height: 20px;
+      font-size: 12px;
+    }
+  
+    .pagination-dots {
+      padding: 0 5px;
+      font-size: 12px;
+    }
+  }
+  
+  /* Mobile screens 420px */
+  @media (max-width: 420px) {
+    .pagination-container {
+      justify-content: flex-start;
+      padding: 0;
+    }
+  
+    .pagination-buttons {
+      gap: 0px;
+    }
+  
+    .btn-outline-color-pagination-dots {
+      width: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+  
+    .pagination-dots {
+      padding: 0 3px;
+      font-size: 10px;
+    }
+  }
+  
