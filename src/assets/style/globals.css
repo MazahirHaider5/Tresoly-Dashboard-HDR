@@ -132,7 +132,10 @@ color: #17508F;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   width: 100vw; /* Full width of viewport */
+   height: 100vh; /* Full height of viewport */
 }
+
 .icon-input-dropdown:before {
    content: "\e9fe";
 }
